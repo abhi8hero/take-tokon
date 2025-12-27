@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Take Token – Manager</title>
+
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="manager.css" />
+</head>
+
+<body>
+
+<div class="container manager">
+
+  <h1>Take Token</h1>
+  <p class="subtitle"><strong>Manager Dashboard</strong></p>
+
+  <!-- Now Serving -->
+  <div class="card highlight">
+    <p class="label">Now Serving</p>
+    <h2 id="nowServing">--</h2>
+    <p id="nowServingName">---</p>
+  </div>
+
+  <!-- Actions -->
+  <div class="actions">
+    <button id="completeBtn">Completed</button>
+    <button id="nextBtn" disabled>Come Next</button>
+  </div>
+
+  <!-- Queue -->
+  <div class="queue">
+    <h3>Waiting Queue</h3>
+    <ul id="queueList"></ul>
+  </div>
+
+</div>
+
+<script src="manager.js"></script>
+</body>
+</html>

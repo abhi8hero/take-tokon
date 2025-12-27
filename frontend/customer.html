@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Take Token – Customer</title>
+
+  <!-- Common styles -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Customer-specific styles -->
+  <link rel="stylesheet" href="customer.css">
+</head>
+
+<body>
+<div class="container customer">
+
+  <h1>Take Token</h1>
+  <p class="subtitle">Live Token Status</p>
+
+  <!-- Now Serving -->
+  <div class="card highlight">
+    <p class="label">Now Serving</p>
+    <h2 id="currentToken">--</h2>
+  </div>
+
+  <!-- Your Token -->
+  <div class="card">
+    <p class="label">Your Token</p>
+    <h2 id="yourToken">Not Booked</h2>
+  </div>
+
+  <!-- Info -->
+  <div class="info">
+    <p>People ahead: <strong id="ahead">--</strong></p>
+    <p>Estimated wait: <strong id="waitTime">--</strong></p>
+  </div>
+
+  <!-- Actions -->
+  <div class="actions">
+    <button id="takeBtn">Take Token</button>
+    <button id="cancelBtn" disabled>Cancel Token</button>
+  </div>
+</div>
+
+<script src="customer.js"></script>
+
+</body>
+</html>

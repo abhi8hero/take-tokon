@@ -1,0 +1,202 @@
+/* ===== EXISTING STYLES (UNCHANGED) ===== */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+  color: #333;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.container {
+  background: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #007BFF;
+  text-align: center;
+}
+
+input[type="text"],
+input[type="password"] {
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px 14px;
+  cursor: pointer;
+  background: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* ===== HEADER ===== */
+.main-header {
+  width: 100%;
+  background: #ffffff;
+  border-bottom: 1px solid #e0e0e0;
+  padding: 15px 20px;
+  margin-bottom: 30px;
+}
+
+.header-inner {
+  max-width: 520px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.logo {
+  margin: 0;
+  font-size: 30px;
+  color: #007BFF;
+}
+
+.tagline {
+  font-size: 13px;
+  color: #666;
+}
+
+/* ===== FOOTER ===== */
+.main-footer {
+  width: 100%;
+  margin-top: auto;
+  padding: 15px 10px;
+  text-align: center;
+  font-size: 13px;
+  color: #777;
+}
+
+.footer-small {
+  font-size: 12px;
+  color: #999;
+}
+
+/* ===== LANDING PAGE ONLY STYLES ===== */
+
+.landing-container {
+  max-width: 520px;
+}
+
+.landing-title {
+  font-size: 28px;
+  margin-bottom: 5px;
+}
+
+.landing-subtitle {
+  text-align: center;
+  color: #555;
+  margin-bottom: 25px;
+  font-size: 15px;
+}
+
+.landing-box {
+  background: #f9fafb;
+  padding: 20px;
+  border-radius: 6px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.landing-box h2 {
+  margin-bottom: 10px;
+}
+
+.info-text {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+/* Divider */
+.divider {
+  text-align: center;
+  margin: 25px 0;
+  position: relative;
+}
+
+.divider::before,
+.divider::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 40%;
+  height: 1px;
+  background: #ddd;
+}
+
+.divider::before {
+  left: 0;
+}
+
+.divider::after {
+  right: 0;
+}
+
+.divider span {
+  background: #fff;
+  padding: 0 10px;
+  color: #777;
+  font-size: 13px;
+}
+
+/* Buttons */
+.primary-btn {
+  width: 100%;
+}
+
+.secondary-btn {
+  width: 100%;
+  background: #28a745;
+}
+
+.secondary-btn:hover {
+  background: #1e7e34;
+}
+
+.password-wrapper {
+  position: relative;
+}
+
+.toggle-password {
+  position: absolute;
+  right: 5px;
+  top: 40%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 18px;
+  user-select: none;
+}
+
+.landing-box input,
+.landing-box button {
+  width: 100%;
+  box-sizing: border-box;
+}

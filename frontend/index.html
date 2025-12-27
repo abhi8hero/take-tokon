@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Take Token</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="main-header">
+  <div class="header-inner">
+    <h1 class="logo">🎟️ Take Token 🎟️</h1>
+    <span class="tagline"><strong>Avoid waiting line, Take Token online.</strong> </span>
+  </div>
+</header><br><br>
+
+
+  <div class="container landing-container">
+    <!-- Hero -->
+    <h1 class="landing-title">Welcome to Take Token</h1>
+    <p class="landing-subtitle">
+      The queue management system for customers, No more Waiting in line.
+    </p>
+
+    <!-- Customer Access -->
+    <div class="customer-box landing-box">
+      <h2>Customer</h2>
+      <p class="info-text">Take your token and track queue live</p>
+      <button class="secondary-btn" onclick="goCustomer()">
+        Continue as Customer
+      </button>
+    </div>
+    
+    <div class="divider">
+      <span>OR</span>
+    </div>
+
+    <!-- Manager Login -->
+    <div class="login-box landing-box">
+      <h2>Manager Login</h2>
+
+      <input type="text" id="username" placeholder="Username" />
+      <div class="password-wrapper">
+        <input type="password" id="password" placeholder="Password" />
+        <span class="toggle-password" onclick="togglePassword()">👁️</span>
+      </div>
+
+
+      <button class="primary-btn" onclick="managerLogin()">Login</button>
+      <p id="loginError" class="error"></p>
+    </div>
+  </div><br><br>
+
+  <footer class="main-footer">
+   <p>Devloped  by  <a href="#">Abhi The Great</a></p>
+   <p class="footer-small">Built for smooth customer flow</p>
+  </footer>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
