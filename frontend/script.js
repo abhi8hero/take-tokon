@@ -10,7 +10,7 @@ function managerLogin() {
     return;
   }
 
-  if (username === "admin" && password === "admin123") {
+  if (username === "abhi" && password === "abhi@1289") {
     window.location.href = "/manager.html";
   } else {
     errorEl.innerText = "Invalid manager credentials";
