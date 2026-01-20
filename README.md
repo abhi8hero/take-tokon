@@ -18,8 +18,8 @@ This project was built to strengthen understanding of authentication concepts, s
 
 ## 📸 Screenshots
 ## Landing page:
-<img width="1919" height="908" alt="image" src="https://github.com/user-attachments/assets/36549405-cacb-4bf0-ba20-6cdfd6ff7857" />
-<img width="1919" height="300" alt="image" src="https://github.com/user-attachments/assets/7736fad3-67c2-4154-98d6-fa2db53123a9" />
+![Screenshot_20-1-2026_18442_take-tokon onrender com](https://github.com/user-attachments/assets/bd857bb2-2cb5-4a37-a98e-65a088cb44bb)
+
 
 ## Customer page:
 <img width="1919" height="910" alt="image" src="https://github.com/user-attachments/assets/a6fe686e-5720-4387-b8d9-2683ce2bd258" />
